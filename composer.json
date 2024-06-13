@@ -1,0 +1,21 @@
+{
+    "name": "konst/dev4",
+    "description": "dev4",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Konst\\Dev4\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konst",
+            "email": "temafm.ru@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aura/sqlquery": "4.x-dev"
+    }
+}
