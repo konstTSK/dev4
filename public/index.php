@@ -1,33 +1,28 @@
 <?php
+if( !session_id() ) {
+    session_start();
+}
 
 require __DIR__.'/../vendor/autoload.php';
 
 use App\QueryBuilder;
+use function \Tamtamchik\SimpleFlash\flash;
+
+    flash()->message('HOT!');
+
+$output = flash()->display();
+
+echo $output;
+
+
 
 $db = new QueryBuilder();
 
-var_dump($db->getAll('user'));
+//d($db);
 
+//d($GLOBALS); // or simply use d() as a shorthand
 
-//use Aura\SqlQuery\QueryFactory;
-
-
-//$pdo = new PDO("mysql:host=localhost;dbname=diplom","root","root");
-//
-//$queryFactory = new QueryFactory('mysql');
-//$select = $queryFactory->newSelect();
-//
-// $select->cols(['*'])->from('user');
-//$d  = $select->getStatement();
-//
-//
-//
-//$stmt = $pdo->prepare($d);
-//$stmt->execute($select->getBindValues());
-//
-//$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-//
-//
-//
-//echo '<pre>';
-//var_dump($result);
+// Create new Plates instance
+$templates = new League\Plates\Engine('../app/views');
+// Render a template
+echo $templates->render('homepage', ['name' => 'Jonathan']);

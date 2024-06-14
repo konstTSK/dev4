@@ -16,6 +16,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "aura/sqlquery": "4.x-dev"
+        "aura/sqlquery": "4.x-dev",
+        "league/plates": "3.5.*",
+        "kint-php/kint": "dev-master",
+        "tamtamchik/simple-flash": "^3.0@dev"
     }
 }
