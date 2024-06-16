@@ -7,9 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Tamtamchik\\SimpleFlash\\' => array($vendorDir . '/tamtamchik/simple-flash/src'),
+    'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
     'Konst\\Dev4\\' => array($baseDir . '/src'),
     'Kint\\' => array($vendorDir . '/kint-php/kint/src'),
+    'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Aura\\SqlQuery\\' => array($vendorDir . '/aura/sqlquery/src'),
     'App\\' => array($baseDir . '/app'),
 );

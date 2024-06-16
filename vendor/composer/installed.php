@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'konst/dev4',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'd0d2c22e76ebd9141eb46e737188ae38054a6f2b',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,9 +31,9 @@
             'dev_requirement' => false,
         ),
         'konst/dev4' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'd0d2c22e76ebd9141eb46e737188ae38054a6f2b',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -46,6 +46,28 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/plates',
             'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'd3ada013d0f683ad2a8d0614fc97917a6ab72ce9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'psr/simple-cache' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '2d280c2aaa23a120f35d55cfde8581954a8e77fa',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/simple-cache',
+            'aliases' => array(
+                0 => '3.0.x-dev',
+            ),
             'dev_requirement' => false,
         ),
         'tamtamchik/simple-flash' => array(

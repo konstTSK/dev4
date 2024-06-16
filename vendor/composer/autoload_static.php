@@ -8,6 +8,7 @@ class ComposerStaticInitb057ac0278d2ac562e7747515c00e89c
 {
     public static $files = array (
         '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '6157b075b923803e5ef157aeb43b83bd' => __DIR__ . '/..' . '/tamtamchik/simple-flash/src/function.php',
     );
 
@@ -15,6 +16,10 @@ class ComposerStaticInitb057ac0278d2ac562e7747515c00e89c
         'T' => 
         array (
             'Tamtamchik\\SimpleFlash\\' => 23,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
         ),
         'L' => 
         array (
@@ -24,6 +29,10 @@ class ComposerStaticInitb057ac0278d2ac562e7747515c00e89c
         array (
             'Konst\\Dev4\\' => 11,
             'Kint\\' => 5,
+        ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
         ),
         'A' => 
         array (
@@ -37,6 +46,10 @@ class ComposerStaticInitb057ac0278d2ac562e7747515c00e89c
         array (
             0 => __DIR__ . '/..' . '/tamtamchik/simple-flash/src',
         ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
         'League\\Plates\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',
@@ -48,6 +61,10 @@ class ComposerStaticInitb057ac0278d2ac562e7747515c00e89c
         'Kint\\' => 
         array (
             0 => __DIR__ . '/..' . '/kint-php/kint/src',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
         'Aura\\SqlQuery\\' => 
         array (
